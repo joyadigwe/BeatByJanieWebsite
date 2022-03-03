@@ -1,29 +1,29 @@
-*{
+*{ /*contains information about the background of the body */
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     background-color:rgb(231, 186, 194);
 }
-.header {
+.header { /*contains information about the header */
     width: 100%;
     height: 120px;
     display: block;
     background-color:  rgb(226, 162, 173); 
 }
-.inner_header{
+.inner_header{ /*contains information about the inner header (does not contain any text) */
     width: 1000px;
     height: 100%;
     display: block;
     margin: 0 auto;
     background-color:  rgb(226, 162, 173);
 }
-.logo_container{
+.logo_container{ /*styles the Beat By Janie text */
     height:100%;
     display: table;
     float: left;
 }
-.logo_container h1{
+.logo_container h1{ /*styles the Beat By Janie text */
     color: white;
     height: 100%;
     display: table-cell;
@@ -32,11 +32,11 @@
     font-size: 70px;
     background-color:  rgb(226, 162, 173);
 } 
-.navigation {
+.navigation { /*styles the navigation text */
     float: right;
     height: 100%;
 }
-.navigation a{
+.navigation a{ /*styles the navigation text */
     height: 100%;
     display: table;
     float: left;
@@ -44,7 +44,7 @@
     background-color:  rgb(226, 162, 173);
 }
 
-.navigation a li{
+.navigation a li{ /*styles the navigation text */
     display: table-cell;
     vertical-align: middle;
     height: 100%;
@@ -55,12 +55,12 @@
     background-color:  rgb(226, 162, 173);
 }
 
-.home1 {
+.home1 { /*styles class that contains the picture on the home page */
     position: fixed;
     left: 80px;
     top: 200px;
 }
-.para1 {
+.para1 { /*styles the class that contains the text on the home page */
     color: white;
     position: fixed;
     left: 40%;
@@ -69,45 +69,8 @@
     font-family: 'Playfair Display';
     font-size: 25px;
 }
-.natural1 {
-    position: fixed;
-    left: 80px;
-    top: 180px;
 
-}
-
-.dramatic {
-    position: fixed;
-    left: 80px;
-    top: 450px;
-}
-
-.para4 {
-  color: white;
-  position: fixed;
-  left: 68%;
-  width: 40%;
-  top: 450px;
-  font-family: 'Playfair Display';
-  font-size: 25px;
-}
-.para5 {
-  color: white;
-  position: fixed;
-  left: 60%;
-  width: 40%;
-  top: 505px;
-  font-family: 'Playfair Display';
-  font-size: 20px;
-}
-
-.makeup {
-    position: fixed;
-    left: 80px;
-    top: 720px;
-}
-
-.container {
+.container { /*styles the class that contains all the images and text for the soft/natural glam look */
     display: flex;
     width: 90%;
     margin: 0 auto;
@@ -115,75 +78,119 @@
     text-align: center;
 }
 
-.container1 {
+.container1 { /*styles the images for the soft/natural glam look */
     display: block;
     height: 200px;
     width: 200px;
     padding: 10px;
 }
 
-.container11 {
+.container11 { /*styles the texts for the price and name for natrual/soft glam look */
     color: white;
     text-align: center;
     font-family: 'Playfair Display';
-    font-size: 22px;
+    font-size: 24px;
     left: 60%;
     width: 45%;
-    margin-top: 20px;
+    margin-top: 30px;
 }
-.container2 {
+.container2 { /*styles the class that contains all the images and text for the makeup classes */
     display: flex;
     width: 90%;
     margin: 0 auto;
     position: relative;
-    margin-top: 330px;
+    margin-top: 55px;
 }
 
-.container22 {
+.container22 { /*styles the images for the makeup classes */
     display: block;
     height: 200px;
     width: 200px;
     padding: 10px;
 }
-.container222 {
+.container222 { /*styles the texts for the price and name for makeup classes */
     color: white;
     font-family: 'Playfair Display';
-    font-size: 22px;
+    font-size: 24px;
     left: 20%;
     width: 45%;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
 }
-.dramatic {
+.dramatic { /*styles the class that contains all the images and text for the dramatic glam look */
     display: flex;
     width: 90%;
     margin: 0 auto; 
-    margin-top: -40px;
+    margin-top: 50px;
     text-align: center;
-    bottom: -200px;
-    position: absolute;
 }
-.dramatic1 {
+.dramatic1 { /*styles the images for the dramatic glam look */
     display: block;
     height: 200px;
     width: 200px;
-    padding: 16px;
-    margin-left: -13px;
+    padding: 10px;
 }
 
-.drama {
+.drama { /*styles the texts for the price and name for dramatic glam look */
     color: white;
     font-family: 'Playfair Display';
-    font-size: 22px;
+    font-size: 24px;
     left: 22%;
     width: 45%;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     
 }
-/*display: flex;
-    height: 200px;
-    flex-wrap: wrap;
-    object-fit: cover;
-    justify-content: left;
-    padding: 10px;*/
+
+#btn { /*styles all Book Me buttons */
+    border: white;
+    border-style:solid;
+    color:white;
+    background-color: rgb(226, 162, 173); 
+    margin: 20px 10px;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+
+}
+
+#empty { /*styles the empty p tag*/
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    text-align: center;
+}
+
+#empty2 { /*styles the empty p tag*/
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    text-align: center;
+}
+
+#empty3 { /*styles the empty p tag*/
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    text-align: center;
+}
+.guidelines { /*styles the class that contains the text for guidlines */
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 33%;
+    top: 150px;
+    font-family: 'Playfair Display';
+    font-size: 35px;
+}
+.rules { /*styles the class that contains the text for makeup classes, time, and payment */
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 260px;
+    font-family: 'Playfair Display';
+    font-size: 26px;
+}

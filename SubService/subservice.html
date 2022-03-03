@@ -7,29 +7,32 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Arizonia&family=Playfair+Display&family=Qwitcher+Grypen:wght@700&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" type= "text/css" href="/style.css">
+    <script src="/script.js">
+    </script>
 </head>
-<body>
+<body> <!--container for the header-->
     <div class= "header">
         <div class="inner_header">
             <div class="logo_container">
                 <h1>Beat By Janie</h1>
             </div>
-
+            <!--list for the navigation items and links for the page it goes to when you click-->
             <ul class="navigation">
                 <a href="/index.html"><li>Home</li></a>
-                <a href="subservice/subservice.html"><li>Services</li></a>
-                <a href="/about.html"><li>Guidelines</li></a>
+                <a href="subservice.html"><li>Services</li></a>
+                <a href="/guidelines.html"><li>Guidelines</li></a>
             </ul>
         </div>
     </div>
-    <!--natural soft glam look image, name, and price-->
+    <!--natural soft glam look images, name, and price-->
     <div class="container">
         <img class="container1" src="IMG-2815.jpg">
         <img class="container1" src= "IMG-2819.jpg">
         <img class="container1" src="IMG-2820.jpg"> &nbsp; &nbsp; &nbsp;
         <div class="container11"><p>Natural/Soft Glam Look <br>
-            Price: $55 <br>
-            This service includes basic lashes, eyeshadow, highlight, blush, and lipgloss or lipstick. 
+            Price: $55 <br> <!--button that adds more text about the style: what the style includes-->
+            <button id="btn" type="button" onclick="myFunction(), function2()">Book Me!</button>
+            <p id="empty"></p> <!--included this empty p element so the button will be able to change the text when clicked-->
         </p></div>
     </div>
 
@@ -39,8 +42,9 @@
     <img class="dramatic1" src="IMG-2826.jpg">
     <img class="dramatic1" src="IMG-2825.jpg"> 
     <div class="drama"><p>Dramatic Glam Look <br>
-        Price: $65 <br>
-        This service includes dramatic lashes, eyeshadow with or without glitter, highlight, blush, and lipgloss or lipstick.
+        Price: $65 <br> <!--button that adds more text about the style: what the style includes-->
+        <button id="btn" type="button" onclick="myFunction2(), function2()">Book Me!</button>
+        <p id="empty2"></p>  <!--included this empty p element so the button will be able to change the text when clicked-->
      </p>
     </div>
 </div>
@@ -49,10 +53,13 @@
         <img class="container22" src="IMG-2833.jpg">
         <img class="container22" src= "IMG-2832.jpg">
         <img class="container22" src="IMG-2831.jpg">
-        <div class="container222"><p>MakeUp Classes
-
+        <div class="container222"><p>MakeUp Classes <br>
+            Starting Price: $30 <br> <!--button that adds more text about the makeup classes: what the price includes-->
+            <button id="btn" type="button" onclick="myFunction3(), function2()">Book Me!</button>
+            <p id="empty3"></p>  <!--included this empty p element so the button will be able to change the text when clicked-->
         </p>
 
         </div>
 </body>
+
 </html>
