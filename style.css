@@ -55,10 +55,10 @@
     background-color:  rgb(226, 162, 173);
 }
 
-.home1 { /*styles class that contains the picture on the home page */
-    position: fixed;
+ .home1 { /*styles class that contains the picture on the home page*/
+    position: fixed; 
     left: 80px;
-    top: 200px;
+    top: 200px; 
 }
 .para1 { /*styles the class that contains the text on the home page */
     color: white;
@@ -70,12 +70,13 @@
     font-size: 25px;
 }
 
-.container { /*styles the class that contains all the images and text for the soft/natural glam look */
+.container0 { /*styles the class that contains all the images and text for the soft/natural glam look */
     display: flex;
     width: 90%;
     margin: 0 auto;
+  /*  position: relative; */
     margin-top: 20px;
-    text-align: center;
+   text-align: center; 
 }
 
 .container1 { /*styles the images for the soft/natural glam look */
@@ -87,19 +88,21 @@
 
 .container11 { /*styles the texts for the price and name for natrual/soft glam look */
     color: white;
-    text-align: center;
+  /*  text-align: center; */
     font-family: 'Playfair Display';
     font-size: 24px;
-    left: 60%;
-    width: 45%;
+    left: 22%; 
+    width: 42%;
     margin-top: 30px;
+    text-align: center;
 }
 .container2 { /*styles the class that contains all the images and text for the makeup classes */
     display: flex;
     width: 90%;
     margin: 0 auto;
-    position: relative;
+ /*   position: relative; */
     margin-top: 55px;
+    text-align: center;
 }
 
 .container22 { /*styles the images for the makeup classes */
@@ -123,6 +126,7 @@
     margin: 0 auto; 
     margin-top: 50px;
     text-align: center;
+    
 }
 .dramatic1 { /*styles the images for the dramatic glam look */
     display: block;
@@ -179,9 +183,9 @@
 }
 .guidelines { /*styles the class that contains the text for guidlines */
     color: white;
-    position: absolute;
     text-align: center;
     left: 33%;
+    position: absolute;
     top: 150px;
     font-family: 'Playfair Display';
     font-size: 35px;
